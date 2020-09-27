@@ -1,0 +1,336 @@
+<html>
+    <head>
+        <title>VR Tuition Center-Classes</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="vrtuition.css">
+
+        <style>
+            .dropdown-toggle:hover
+            {
+                cursor: pointer;
+            }
+
+            .chapters
+            {
+                position: relative;
+                box-shadow: none;
+            }
+
+            .jumbotron
+            {
+                background-color:rgb(240, 248, 240);
+                border-bottom: 1px solid darkgray;
+                border-top: 1px solid darkgray;
+                padding:5px 0;
+                margin-bottom:0;
+            }
+            
+            .subdropjumb
+            {
+                background-color: white;
+                border-top: none;
+                border-bottom: none;
+            }
+            #altermsg
+            {
+                width: 100%;
+                padding: 12px 11px;
+                font-size: 120%;
+                box-shadow: darkgrey;
+            }
+
+            .filelink:hover
+            {
+                cursor: pointer;
+            }
+
+            td .dropdown .subdrop{
+                font-weight: bold;
+            }
+
+        </style>
+    </head>
+
+
+    <body>
+
+        <div id="content">
+
+            <!-- ------------------nav bar------------------ -->
+            <nav class="navbar navbar-default">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>                        
+                  </button>
+                <a class="navbar-brand" href="#" style=" color: rgba(233, 227, 227, 0.972);">Montessori High School</a>
+              </div>
+              <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>
+                <li  class="active"><a href="class.html"><span class="glyphicon glyphicon-book"></span> Class</a></li>
+                <li><a href="#contact"><span class="glyphicon glyphicon-earphone"></span> Contact</a></li>
+            </ul>
+            </div>
+        </nav>
+
+            <!--Head of the page -->
+
+            <h1 class="text-center" id="head">VR Tuition Center</h1>
+
+            <p>
+
+            </p>
+
+            <div class="dropdown jumbotron">
+                <p class="dropdown-toggle" data-toggle="dropdown" id="10th" style="padding:2px 12px;font-family: 'Exo', sans-serif;">10th Class<span class="caret text-right"></span></p>
+                <table class="table dropdown-menu chapters">
+                    <thead>
+                        <tr>
+                          <th>Concepts</th>
+                        </tr>
+                      </thead>
+                    <tr>
+                        <td style="padding:2px 12px">
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" style="margin-bottom:0" data-toggle="dropdown">Real Numbers<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/realnumbers/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/realnumbers/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/realnumbers/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" style="margin-bottom:0" data-toggle="dropdown">Sets<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/sets/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/sets/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/sets/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Polynomials<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/polynomials/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/polynomials/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/polynomials/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Pair of Linear Equations in Two variables<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/pairoflinear/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/pairoflinear/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/pairoflinear/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Quadratic Equations<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/quadratic/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/quadratic/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/quadratic/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Progressions<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/progressions/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/progressions/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/progressions/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Coordinate Geometry<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/coordinategeometry/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/coordinategeometry/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/coordinategeometry/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Similar Triangles<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/similartriangles/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/similartriangles/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/similartriangles/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Tangents and Secants to a circle<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/circles/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/circles/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/circles/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Mensuration<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/mensuration/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/mensuration/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/mensuration/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Trigonometry<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/trigonometry/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/trigonometry/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/trigonometry/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Applications of Trigonometry<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/appoftrig/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/appoftrig/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/appoftrig/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Probability<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/probability/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/probability/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/probability/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" data-toggle="dropdown">Statistics<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/statistics/concepts.docx'" class="filelink"><td ><a>Concepts</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/statistics/practise.docx'" class="filelink"><td ><a>Practise Questions</a></td></tr>
+                                    <tr onclick="window.location.href = 'https://view.officeapps.live.com/op/embed.aspx?src=https://svssp.github.io/montessori/docs/statistics/assignment.docx'" class="filelink"><td><a>Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                </table>
+          
+            </div>
+
+            <!--Drop Down menu for 9 th class students-->
+            <div class="dropdown jumbotron">
+                <p class="dropdown-toggle" data-toggle="dropdown" id="9th" style="padding:2px 12px;font-family: 'Exo', sans-serif;">9th Class<span class="caret text-right"></span></p>
+                <!--
+                <table class="table dropdown-menu chapters">
+                    <thead>
+                        <tr>
+                          <th>Concepts</th>
+                        </tr>
+                      </thead>
+                    <tr>
+                        <td  style="padding:2px 12px">
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" style="margin-bottom:0" data-toggle="dropdown">sets<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr><td ><a href="https://docs.google.com/gview?url=https://svssp.github.io/vrtuition/docs/10th%20class.pdf&embedded=true">Concepts</a></td></tr>
+                                    <tr><td ><a href="https://docs.google.com/gview?url=https://svssp.github.io/vrtuition/docs/10th%20class.pdf&embedded=true">Practise Questions</a></td></tr>
+                                    <tr><td><a href="https://docs.google.com/gview?url=https://svssp.github.io/vrtuition/docs/10th%20class.pdf&embedded=true">Assignment</a></td></tr>
+                                </table>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td  style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" style="margin-bottom:0" data-toggle="dropdown">equations<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr><td ><a href="https://docs.google.com/gview?url=https://svssp.github.io/vrtuition/docs/10th%20class.pdf&embedded=true">Concepts</a></td></tr>
+                                    <tr><td ><a href="https://docs.google.com/gview?url=https://svssp.github.io/vrtuition/docs/10th%20class.pdf&embedded=true">Practise Questions</a></td></tr>
+                                    <tr><td><a href="https://docs.google.com/gview?url=https://svssp.github.io/vrtuition/docs/10th%20class.pdf&embedded=true">Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td  style="padding:2px 12px"> 
+                            <div class="dropdown">
+                                <p  class="dropdown-toggle subdrop jumbotron subdropjumb" style="margin-bottom:0" data-toggle="dropdown">real numbers<span class="caret text-right"></span></p>
+                                <table class="table dropdown-menu chapters">
+                                    <tr><td ><a href="https://docs.google.com/gview?url=https://svssp.github.io/vrtuition/docs/10th%20class.pdf&embedded=true">Concepts</a></td></tr>
+                                    <tr><td ><a href="https://docs.google.com/gview?url=https://svssp.github.io/vrtuition/docs/10th%20class.pdf&embedded=true">Practise Questions</a></td></tr>
+                                    <tr><td><a href="https://docs.google.com/gview?url=https://svssp.github.io/vrtuition/docs/10th%20class.pdf&embedded=true">Assignment</a></td></tr>
+                                </table>
+                        </div>
+                        </td>
+                    </tr>
+                </table>
+                --->
+                <div class="dropdown-menu" id="altermsg"><b>Will be available soon.........</b></div>
+            </div>
+
+            
+        <script>
+            
+        $('.subdrop').on('click', function(event){
+
+            $(this).next('table').toggle();
+    event.stopPropagation();
+    event.preventDefault();
+        
+        });
+    </script>
+    </body>
+
+</html>
